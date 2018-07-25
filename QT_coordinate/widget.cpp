@@ -1,5 +1,6 @@
 #include "widget.h"
 #include <QPushButton>
+#include "mybutton.h"
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -14,6 +15,10 @@ Widget::Widget(QWidget *parent)
     QPushButton *b2 = new QPushButton(this);
     b2->move(100,250);
     b2->setText("sss");
+
+    MyButton *b3 = new MyButton(this);
+    b3->move(50,50);
+    b3->setText("ddd");
 
 }
 
