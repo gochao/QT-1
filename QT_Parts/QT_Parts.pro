@@ -21,4 +21,5 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     image.qrc \
-    images.qrc
+    images.qrc \
+    res.qrc
